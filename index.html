@@ -28,6 +28,7 @@
       href="assets/plugins/bootstrap/css/bootstrap.min.css"
     />
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
 
   <body>
@@ -69,7 +70,7 @@
     <div class="container sections-wrapper">
       <div class="row">
         <div class="primary col-lg-8 col-12">
-          <section class="about section">
+          <section class="about section" data-aos="fade-right">
             <div class="section-inner shadow-sm rounded">
               <h2 class="heading">A propos de moi</h2>
               <div class="content">
@@ -87,7 +88,7 @@
           </section>
           <!--//section-->
 
-          <section class="experience section">
+          <section class="experience section" data-aos="fade-right">
             <div class="section-inner shadow-sm rounded">
               <h2 class="heading">Expérience</h2>
               <div class="content">
@@ -155,7 +156,7 @@ scolaire
             </div>
             <!--//section-inner-->
           </section>
-          <section class="latest section">
+          <section class="latest section" data-aos="fade-right">
             <div class="section-inner shadow-sm rounded">
               <h2 class="heading">Projets</h2>
               <div class="content">
@@ -223,7 +224,7 @@ scolaire
                 </div>
                 <!--//item-->
                 <hr class="divider" />
-                <div class="item row">
+                <div class="item row" data-aos="fade-right" >
                   <div class="col-md-4 col-12">
                   <img
                       class="img-fluid project-image rounded shadow-sm"
@@ -247,7 +248,7 @@ MyTaxi est une application mobile qui offrent aux utilisateurs de commander un t
                 </div>
                 <!--//item-->
 
-                           <div class="item row">
+                           <div class="item row" data-aos-delay="200">
                   <div class="col-md-4 col-12">
                   <img
                       class="img-fluid project-image rounded shadow-sm"
@@ -272,7 +273,7 @@ MyTaxi est une application mobile qui offrent aux utilisateurs de commander un t
                 </div>
                 <!--//item-->
 
-            <div class="item row">
+            <div class="item row" data-aos-delay="400">
                   <div class="col-md-4 col-12">
                   <img
                       class="img-fluid project-image rounded shadow-sm"
@@ -307,7 +308,7 @@ GesSco est une application web qui offrent aux écoles une gestion facile
           </section>
           <!--//section-->
 
-          <section class="projects section">
+          <section class="projects section" data-aos="fade-right">
             <div class="section-inner shadow-sm rounded">
               <h2 class="heading">Autres Projects</h2>
               <div class="content">
@@ -362,7 +363,7 @@ GesSco est une application web qui offrent aux écoles une gestion facile
         </div>
         <!--//primary-->
         <div class="secondary col-lg-4 col-12">
-          <aside class="info aside section">
+          <aside class="info aside section" data-aos="fade-left">
             <div class="section-inner shadow-sm rounded">
               <h2 class="heading sr-only">Basic Information</h2>
               <div class="content">
@@ -390,7 +391,7 @@ GesSco est une application web qui offrent aux écoles une gestion facile
             <!--//section-inner-->
           </aside>
           <!--//aside-->
-            <aside class="education aside section">
+            <aside class="education aside section" data-aos="fade-up">
             <div class="section-inner shadow-sm rounded">
               <h2 class="heading">Certifications</h2>
               <div class="content">
@@ -448,7 +449,7 @@ GesSco est une application web qui offrent aux écoles une gestion facile
             <!--//section-inner-->
           </aside>
 
-          <aside class="skills aside section">
+          <aside class="skills aside section" data-aos="fade-up" data-aos-delay="100">
             <div class="section-inner shadow-sm rounded">
               <h2 class="heading">Compétences Techniques</h2>
               <div class="content">
@@ -559,7 +560,7 @@ GesSco est une application web qui offrent aux écoles une gestion facile
             <!--//section-inner-->
           </aside>
 
-          <aside class="education aside section">
+          <aside class="education aside section" data-aos="fade-up">
             <div class="section-inner shadow-sm rounded">
               <h2 class="heading">Education</h2>
               <div class="content">
@@ -594,9 +595,9 @@ GesSco est une application web qui offrent aux écoles une gestion facile
           </aside>
           <!--//section-->
 
-          <aside class="languages aside section">
+          <aside class="languages aside section" data-aos="fade-up">
             <div class="section-inner shadow-sm rounded">
-              <h2 class="heading">Languess</h2>
+              <h2 class="heading">Langues</h2>
               <div class="content">
                 <ul class="list-unstyled">
                   <li class="item">
@@ -660,5 +661,10 @@ GesSco est une application web qui offrent aux écoles une gestion facile
       src="assets/plugins/bootstrap/js/bootstrap.min.js"
     ></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
   </body>
 </html>
+
